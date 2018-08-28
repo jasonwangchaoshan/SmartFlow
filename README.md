@@ -21,8 +21,8 @@ make erase_flash flash
 (The `make erase_flash flash` means "erase everything, then flash". `make flash` only erases the parts of flash which are being rewritten.)
 
 
-# How  to use this example
-**1. Download the app first:**
+# Here are some of the tools that might be used
+
 
 *Android version: https://github.com/DanielXie00/EsptouchForAndroid/tree/master/releases/apk
 
@@ -30,8 +30,12 @@ make erase_flash flash
 
 And **installed** on the phone, its role is to send wifi and password to the device
 
-Open the EspTouch software, fill in the wifi password, then click "CONFIRM", and then wait for the update program, the program is about 1.4Mb.
+Open the EspTouch software, fill in the wifi password, then click "CONFIRM"
 ![EspTouch](/others/EspTouch.png)
+
+
+Any suggestions please send to **xieshupei2010@gmail.com**,thank you.
+
 
 
 
