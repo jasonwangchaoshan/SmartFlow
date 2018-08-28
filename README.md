@@ -24,7 +24,7 @@ ota_1,    0,    ota_1,  0x410000, 2M,
 
 The OTA_workflow.png diagram demonstrates the overall workflow:
 
-![OTA Workflow diagram](OTA_workflow.png)
+![OTA Workflow diagram](others/flash.png)
 
 ## Step 1: Connect to AP
 
