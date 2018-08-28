@@ -2,29 +2,14 @@
 a device for measuring gas flow
 
 
-# Note
+**Note**
 
 1.This example uses an 8Mbyte flash chip.
 we use more than 1.4Mbyte of flash memory.
+**Here is  the “Factory app, two OTA definitions” configuration:**
 
-Here is  the “Factory app, two OTA definitions” configuration:
-# Espressif ESP32 Partition Table
-![OTA Workflow diagram](https://github.com/DanielXie00/SmartFlow/blob/master/others/flash.png)
-Name,   Type, SubType, Offset,  Size, Flags
-nvs,      data, nvs,     0x9000,  0x4000,
-otadata,  data, ota,     0xd000,  0x2000,
-phy_init, data, phy,     0xf000,  0x1000,
-factory,  0,    0,       0x10000, 2M,
-ota_0,    0,    ota_0,  0x210000, 2M,
-ota_1,    0,    ota_1,  0x410000, 2M,
-#storage data   spiffs	  0x610000 0x180000
+![ESP32 Partition Table](https://github.com/DanielXie00/SmartFlow/blob/master/others/flash.png)
 
-
-# Workflow
-
-The OTA_workflow.png diagram demonstrates the overall workflow:
-
-![OTA Workflow diagram](others/flash.png)
 
 ## Step 1: Connect to AP
 
