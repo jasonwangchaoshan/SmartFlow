@@ -9,7 +9,7 @@ we use more than 1.4Mbyte of flash memory.
 
 Here is  the “Factory app, two OTA definitions” configuration:
 # Espressif ESP32 Partition Table
-![OTA Workflow diagram](OTA_workflow.png)
+![OTA Workflow diagram](https://github.com/DanielXie00/SmartFlow/blob/master/others/flash.png)
 Name,   Type, SubType, Offset,  Size, Flags
 nvs,      data, nvs,     0x9000,  0x4000,
 otadata,  data, ota,     0xd000,  0x2000,
