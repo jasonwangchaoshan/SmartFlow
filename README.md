@@ -3,9 +3,10 @@ a device for measuring gas flow
 
 
 **Note**
-1.Compiler Environment
 
-*https://docs.espressif.com/projects/esp-idf/en/v3.0.2
+1.Compiler Environment (See the “tools” for details.)
+
+https://docs.espressif.com/projects/esp-idf/en/v3.0.2
 
 Please update by this working environment.
 
