@@ -3,15 +3,21 @@ a device for measuring gas flow
 
 
 **Note**
+1.Compiler Environment
 
-1.This example uses an 8Mbyte flash chip.
+*https://docs.espressif.com/projects/esp-idf/en/v3.0.2
+
+Please update by this working environment.
+
+
+2.This example uses an 8Mbyte flash chip.
 we use more than 1.4Mbyte of flash memory.
 
 **Here is  the “Factory app, two OTA definitions” configuration:**
 
 ![ESP32 Partition Table](https://github.com/DanielXie00/SmartFlow/blob/master/others/flash.png)
 
-2.
+3.
 When flashing, use the `erase_flash` target first to erase the entire flash (this deletes any leftover data in the ota_data partition). Then flash the factory image over serial:
 
 ```
