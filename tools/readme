@@ -1,1 +1,15 @@
-# The esp-idf version number I am using is esp-idf-v3.0.2.
+1.Updating ESP-IDF  
+
+ The esp-idf version number I am using is esp-idf-v3.0.2.
+
+This is the download link
+
+https://github.com/espressif/esp-idf/releases/download/v3.0.2/esp-idf-v3.0.2.zip
+
+2.Updating Toolchain
+
+The toolchain I use is  xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
+
+Here is the download link
+
+https://docs.espressif.com/projects/esp-idf/en/v3.0.2/get-started/linux-setup.html
