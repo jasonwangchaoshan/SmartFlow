@@ -13,3 +13,8 @@ The toolchain I use is  xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
 Here is the download link
 
 https://docs.espressif.com/projects/esp-idf/en/v3.0.2/get-started/linux-setup.html
+
+
+This is the esp-idf-v3.0.2 Getting Started Guide:
+
+https://docs.espressif.com/projects/esp-idf/en/v3.0.2/
